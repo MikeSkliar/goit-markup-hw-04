@@ -295,6 +295,11 @@ body {
   gap: 24px;
 }
 .customer-list {
+}
+.section-customers-correction {
+  padding-top: 130px;
+}
+.customer-logo-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -303,9 +308,13 @@ body {
   border-radius: 4px;
   width: 168px;
   height: 88px;
+  fill: #8e8f99;
 }
-.section-customers-correction {
-  padding-top: 130px;
+.customer-logo-link:hover,
+.cutomer-logo-link:focus {
+  fill: #404bbf;
+  border: 1px solid #404bbf;
+  border-radius: 4px;
 }
 /* =========================/CUSTOMERS================================== */
 /* =========================FOOTER===================================== */
